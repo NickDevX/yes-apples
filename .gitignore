@@ -1,0 +1,41 @@
+# Залежності
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Середовище розробки
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Логи
+logs
+*.log
+
+# Кеш
+.cache/
+.parcel-cache/
+
+# Редактори
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Операційна система
+.DS_Store
+Thumbs.db
+
+# Shopify
+config.yml
+config/settings_data.json
+
+# Gulp збірка
+dist/
+
+# Sourcemaps (за бажанням)
+# *.map 
